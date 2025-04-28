@@ -1,3 +1,5 @@
+🗂️ Task Manager
+
 Aplicação desenvolvida com React e estilizada com TailwindCSS, focada no gerenciamento de tarefas de forma prática e intuitiva.
 O projeto foi criado com o objetivo de colocar em prática conceitos fundamentais do React, como:
 
