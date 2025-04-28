@@ -1,0 +1,30 @@
+:root {
+  --primary: #2563eb; /* Blue-600 */
+  --secondary: #ef4444; /* Red-500 */
+  --background: #e0f2fe; /* Blue-100 */
+  --text-primary: #1e40af; /* Blue-800 */
+  --text-secondary: #334155; /* Slate-700 */
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: var(--background);
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em var(--primary)aa);
+}
+
+.card {
+  padding: 2em;
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.read-the-docs {
+  color: var(--secondary);
+}
