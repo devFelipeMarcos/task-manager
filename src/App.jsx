@@ -28,11 +28,11 @@ const App = () => {
 
   const handleAddTask = (title, description) => {
     if (!title.trim() || !description.trim()) {
-      return alert('Please fill in both fields.')
+      return alert('Preencha todos os campos para adicionar uma tarefa!')
     }
 
     if (tasks.some((t) => t.title === title)) {
-      return alert('A task with this title already exists.')
+      return alert('Já existe uma tarefa com esse titulo')
     }
 
     const newTask = {
